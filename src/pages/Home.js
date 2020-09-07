@@ -49,7 +49,7 @@ const Home = () => {
     setSearchOption(e.target.value);
   };
 
-  console.log(searchOption);
+  // console.log(searchOption);
 
   return (
     <MainPageLayout>

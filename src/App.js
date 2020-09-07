@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Starred from './pages/Starred';
+import Show from './pages/Show';
 
 // Switch component is like switch statement in js where every case is the path we specify.
 // If we don't have exact match, we have default operation or route with 404 page.
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route exact path="/starred">
           <Starred />
+        </Route>
+        <Route exact path="/show/:id">
+          <Show />
         </Route>
         <Route>
           <div>Not found</div>
