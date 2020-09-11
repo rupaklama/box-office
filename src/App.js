@@ -13,6 +13,8 @@ import Show from './pages/Show';
 // Not only that, it allows for nested routes to work properly, which is something
 // that <Router /> will not be able to handle.
 
+
+
 function App() {
   return (
     <div>

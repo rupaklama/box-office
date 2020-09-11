@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import FadeIn from 'react-fade-in';
 
 // Styled component named FlexGrid to style div element
 // Styled component will create unique class - <div class="sc-bdnylx eFtECD">
 // for this dev element,
 // this is why style will not be share across the global scope which
 // prevent issues
-export const FlexGrid = styled.div`
+export const FlexGrid = styled(FadeIn)` // fade in animation applied here
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

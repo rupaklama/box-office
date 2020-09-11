@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Link } from 'react-router-dom';
 
 const LINKS = [
@@ -23,4 +23,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default memo(Nav);
