@@ -1,6 +1,6 @@
 {
-  "short_name": "Box App",
-  "name": "Create React App Sample",
+  "short_name": "Movie Box App",
+  "name": "Movie Box App",
   "icons": [
     {
       "src": "favicon.ico",
